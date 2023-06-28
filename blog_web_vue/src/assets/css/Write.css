@@ -1,0 +1,86 @@
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #3de1ad;
+  border-radius: 10px 10px 0 0;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.card-header h3 {
+  margin: 0;
+}
+
+.publish-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #3de1ad;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.publish-btn:hover {
+  background-color: #3de1ad;
+  color: #fff;
+}
+
+.card-body {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  width: 120px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #3de1ad;
+}
+
+.form-group input, .form-group select {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  background-color: #f2f2f2;
+  color: #3de1ad;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.editor-wrapper {
+  margin-top: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+
+.ql-editor {
+  min-height: 300px;
+  border-radius: 5px;
+  background-color: #fff;
+}

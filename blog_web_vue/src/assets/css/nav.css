@@ -1,0 +1,95 @@
+.navbar {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0px 10px 0 rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    padding: 10px 20px;
+    width: 90%;
+  }
+
+  .navbar a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 20px;
+    font-size: 18px;
+    transition: all 0.3s ease;
+  }
+
+  .navbar a:hover {
+    color: #3de1ad;
+  }
+
+  .navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: auto;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+
+  .navbar .login {
+    display: flex;
+    align-items: center;
+  }
+
+  .navbar .login a {
+    background-color: #3de1ad;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 14px;
+    transition: all 0.3s ease;
+  }
+
+  .navbar .login a:hover {
+    background-color: #fff;
+    color: #3de1ad;
+  }
+
+  .navbar .user-profile {
+    display: flex;
+    align-items: center;
+  }
+
+  .navbar .user-profile img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+
+  .navbar .user-profile span {
+    color: #3de1ad;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+
+
+  /* .logged-in .user-profile {
+    display: flex;
+  }
+
+  .logged-in .navbar {
+    background-color: rgba(61, 225, 173, 0.8);
+    border: none;
+  }
+
+  .logged-in .navbar a {
+    color: #fff;
+  }
+
+  .logged-in .user-profile span {
+    color: #a4e2c6;
+  } */

@@ -1,0 +1,226 @@
+
+.web_header{
+  display: flex;
+  /* flex-wrap: wrap; */
+  /* justify-content: space-between; */
+  
+}
+
+.card-nav {
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 10px;
+    width: 17%;
+    margin-top: 5px;
+    margin-bottom: 15px;
+  }
+  
+  .card-nav-item {
+    color: #64748b;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 10px;
+  }
+  
+  .card-nav-item:hover {
+    background-color: rgba(61, 225, 173,0.2);
+    color: #3de1ad;
+  }
+  
+  .card-nav-item.active {
+    background-color: rgba(61, 225, 173,0.2);
+    color: #3de1ad;
+  }
+
+
+  .search-box {
+    /* display: flex; */
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    /* padding: 10px; */
+    margin-top: 5px;
+    margin-left: 10px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+    width: 30%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .search-box input[type="text"] {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background-color: transparent;
+    color: #64748b;
+    margin-right: 5px;
+    width: 70%;
+  }
+  
+  .search-box button[type="submit"] {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    width: 30%;
+  }
+  
+  .search-box img {
+    width: 20px;
+    height: 20px;
+  }
+
+
+.article-list {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+  }
+  
+  .listcard {
+    width: 30%;
+    height: 250px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #ffffff;
+  }
+  
+  .listcard-body {
+    padding: 10px;
+    
+  }
+  
+  .listcard-title {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    line-height: 1.2;
+  }
+  
+  .listcard-subtitle {
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+    color: #666;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .listcard-subtitle span {
+    margin-right: 10px;
+  }
+
+  /* .article-image {
+    height: 100%;
+    width: 20%;
+    object-fit: fill;
+  } */
+  .image-container {
+    float: left;
+    width: 180px;
+    height: 80px;
+    margin-right: 5px;
+    background-size: contain;
+  }
+  
+  .listcard-text {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.5;
+    height: 50px;
+  }
+
+  .clear {
+    clear: both;
+    }
+
+  .listcard-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+    color: #666666;
+    font-size: 14px;
+  }
+
+  .listcard-footer-item {
+    margin-left: 30px;
+    margin-right: 30px;
+    display: flex;
+    text-align: center;
+  }
+  
+  .listcard-footer-item img {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+  }
+  
+  .listcard-footer .footer-text {
+    line-height: 25px;
+    text-align: center;
+    color: #64748b;
+  }
+  
+
+  a {
+    color: #000000;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #000000;
+    text-decoration: none;
+  }
+  
+  /* 分页导航部分样式 */
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    width: 100%;
+  }
+  
+  .page-item {
+    margin: 0 5px;
+    list-style: none;
+  }
+  
+  .page-link {
+    display: block;
+    padding: 0.5rem 0.75rem;
+    color: #333;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 0.25rem;
+  }
+  
+  .page-link:hover {
+    color: #3de1ad8a;
+    background-color: #f5f5f5;
+    border-color: #ddd;
+  }
+  
+  .page-item.active .page-link {
+    z-index: 3;
+    color: #fff;
+    background-color: #3de1ad;
+    border-color: #3de1ad;
+  }
+  
+  .page-item.disabled .page-link {
+    color: #6c757d;
+    background-color: #fff;
+    border-color: #ddd;
+    cursor: not-allowed;
+  }
